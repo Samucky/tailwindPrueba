@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+    <!-- Navbar -->
+    <var class="bg-blue-500 justify-self-center">
+        <div class="max-w- bg-cyan-400 h-8"></div>
+        <div class="w-4/5 bg-slate-200	 flex justify-between items-center translate-x-36">
+            <p class="text-blue-900	 text-xl">Lorem ipsum dolor, sit amet consectetur</p>
+            <div class="flex space-x-4">
+                <button>
+                    <img src="src/configuration.png" alt="configuration icon" class="h-12 w-12">
+                </button>
+                <button>
+                    <img src="src/user.png" alt="user icon" class="h-12 w-12">
+                </button>
+            </div>
+        </div>
+    </var>
+    <nav class="bg-white shadow p-4">
+        <div class="container mx-auto w-4/5 flex items-center">
+            <div class="flex space-x-4 justify-self-start">
+                <a href="#" class="text-yellow-400 hover:text-yellow-200 text-2xl">Lorem ipsum</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800 text-2xl">Lorem ipsum</a>
+            </div>
+            <div class="flex space-x-4 ml-auto">
+                <a href="#" class="text-yellow-400 hover:text-yellow-200 text-2xl">Lorem ipsum</a>
+                <button>
+                    <img src="src/shops.png" alt="user icon" class="h-12 w-12">
+                </button>
+            </div>
+        </div>
+    </nav>
+<div class="bg-blue-50">
+<!--Navbar con imagen-->
+    <nav class="shadow p-4">
+        <div class="container mx-auto flex justify-center items-center">
+            <div class="flex space-x-4 text-2xl	">
+                <a href="#" class="text-gray-600 hover:text-gray-800">Home</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">Shop</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">About</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">QA</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">Email</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">Contact Center</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-50 py-12">
+        <div class="grid grid-cols-2 gap-1">
+            <div class="container mx-auto text-center py-48">
+                <h1 class="text-4xl font-bold text-gray-800 mb-4">Lo mejor esta por venir</h1>
+                <p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta provident quisquam, odio aut ex architecto aperiam itaque quidem, hic harum omnis temporibus quibusdam tenetur sapiente in sint facilis veritatis totam!.</p>
+                <button class="bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-800 active:bg-orange-400">Shop Now</button>
+            </div>
+            <div class="container mx-auto text-center">
+                <img src="src/modelo.avif" alt="">
+            </div>
+        </div>
+    </section>
+</div>
+<!--Imagenes muestra-->
+<div class="grid grid-cols-3 gap-1 bg-white container mx-auto flex justify-center items-center">
+    <div> 
+        <img src="src/a.jpg" class="px-24">
+    </div>
+    <div> 
+        <img src="src/vato.jpg" class="p-1">
+    </div>
+    <div> 
+        <img src="src/ados.jpg" class=" px-12" >
+    </div>
+</div>
+<div class="bg-gray-200">
+    <div class="grid grid-cols-2 gap-1 container mx-auto flex justify-center items-center text-center">
+        <input type="radio" id="most-sold-content" name="carousel" class="hidden" checked>
+        <input type="radio" id="offers-content" name="carousel" class="hidden" checked>
+        <label for="most-sold-content" class="px-4 py-2 bg-orange-500 hover:bg-orange-800 rounded cursor-pointer text-white text-2xl">Más Vendidos</label>
+        <label for="offers-content" class="px-4 py-2 bg-orange-500 hover:bg-orange-800 text-white rounded cursor-pointer text-2xl">Ofertas</label>
+    </div>
+    
+    <section id="most-sold" class="carrusel-container grid grid-cols-1 md:grid-cols-3 gap-8 container mx-auto">
+        <div class="bg-white p-4 rounded-lg shadow">
+            <!-- Contenido de Producto 1 -->
+            <img src="src/cuidadoConElPerro1.webp" alt="Product 1" class="w-full h-64 object-cover mb-4 rounded-lg">
+            <h2 class="text-xl font-bold text-gray-800 mb-2">Camisa 1</h2>
+            <p class="text-gray-600 mb-4">Camisa de manga larga.</p>
+            <button href="#" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 active:bg-blue-400">Buy Now</button>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow">
+            <!-- Contenido de Producto 2 -->
+            <img src="src/imagen2.webp" alt="Product 2" class="w-full h-64 object-cover mb-4 rounded-lg">
+            <h2 class="text-xl font-bold text-gray-800 mb-2">Playera 1</h2>
+            <p class="text-gray-600 mb-4">Playera para pasear.</p>
+            <button href="#" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 active:bg-blue-400">Buy Now</button>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow">
+            <!-- Contenido de Producto 3 -->
+            <img src="src/imagen3.webp" alt="Product 3" class="w-full h-64 object-cover mb-4 rounded-lg">
+            <h2 class="text-xl font-bold text-gray-800 mb-2">Product 3</h2>
+            <p class="text-gray-600 mb-4">Description of product 3.</p>
+            <button href="#" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 active:bg-blue-400">Buy Now</button>
+        </div>
+    </section>
+</div>
+<div class="bg-gray-100 p-4">
+
+    <div class="grid grid-cols-2 gap-1">
+    <div class="grid grid-cols-2 gap-2 -translate-x-16  h-max">
+      <!-- Productos -->
+      <div class="bg-white p-1 s ">
+        <img src="src/negroRopa.avif" alt="Producto 1" class="w-full mb-2">
+      </div>
+      <div class="bg-white p-1 ">
+        <img src="src/negras.avif" alt="Producto 1" class="w-full mb-2">
+      </div>
+      <div class="">
+        <img src="src/negra2.jpg" alt="Producto 1" class="w-3/4 mb-2 translate-x-96 -translate-y-48	">
+      </div>
+    </div>
+    <div>
+        <div class="grid-cols-2 gap-3">
+            <div class=" w-1/2 bg-gray-200 p-16 px-9 -translate-x-12 -translate-y-1.5	 ">
+                <h3 class="text-amber-700   w-1/2">Lorem Impsu</h3>
+                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+            </div>
+            <div class=" w-1/2 bg-gray-200 p-16 px-9  translate-x-80 -translate-y-52">
+                <h3 class="text-amber-700   w-1/2">Lorem Impsu</h3>
+                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+            </div>     
+            <div class=" w-1/2 bg-gray-200 p-16 px-9 -translate-x-12 -translate-y-32">
+                <h3 class="text-amber-700   w-1/2">Lorem Impsu</h3>
+                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p> <br>
+                <button href="#" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 active:bg-blue-400">Buy Now</button>
+
+            </div>     
+            <div class=" w-1/2 bg-gray-200 p-16 px-9 translate-x-80 -translate-y-96">
+                <h3 class="text-amber-700   w-1/2">Lorem Impsu</h3>
+                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p> <br>
+                <button href="#" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 active:bg-blue-400">Buy Now</button>
+
+            </div>
+           
+        </div>
+
+    </div>
+  </div>
+</div>
+  
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 Fashion. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
